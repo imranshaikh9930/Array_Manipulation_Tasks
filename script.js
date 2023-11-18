@@ -18,7 +18,7 @@ function addData() {
   let age = prompt("Enter age");
   let profession = prompt("Enter profession");
 
-  console.log(name, age, profession);
+  // console.log(name, age, profession);
   let dataObject = {
     name: name,
     age: parseInt(age),
