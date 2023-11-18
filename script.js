@@ -37,10 +37,12 @@ function removeAdmin() {
 }
 
 // 4. Concatenate Array
-const array1 = [1, 2, 3];
-const array2 = [4, 5, 6];
+const array2 = [
+  { name: 'imran', age: 26, profession: 'Engineer' }
+];
+
 function concatenateArray() {
-  const result = array1.concat(array2);
+  const result = data.concat(array2);
   console.log("Concatenated  Array:", result);
 }
 
