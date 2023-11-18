@@ -100,11 +100,13 @@ function updateJohnsProfession() {
 
 // 10. Profession Count
 function getTotalProfessions() {
-  const developers = data.filter((element)=> element.profession ==="developer") 
-  const admin = data.filter((element)=> element.profession ==="admin")
+  const developers = data.filter(
+    (element) => element.profession === "developer"
+  );
+  const admin = data.filter((element) => element.profession === "admin");
 
   const totalDevelopers = developers.length;
-  const  totalAdmin = admin.length;
+  const totalAdmin = admin.length;
 
   console.log("Total developers", totalDevelopers);
   console.log("Total admins", totalAdmin);
